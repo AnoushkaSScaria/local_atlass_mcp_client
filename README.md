@@ -10,7 +10,7 @@ Basic Usage:
     - To configure aws credentials -
         - aws configure sso, select Lab-Engineering profile, AWSPowerUserAccess
     - To run the MCP client - 
-        - cd into client directory, then do: uv run atlassian-mcp-client.py "path/to/server.py"
+        - cd into server directory, then do: uv run PATH\TO\CLIENT\local_atlass_mcp_client\atlass_client.py "run_local.py"
     - Example query -
         - "Create a test plan in confluence where the issue key is "WSD-XXXXX", the confluence space key is "XXXX", the confluence page title is  "Example test plan - WSD XXXXX", and the test plan is a generated test plan."
 
